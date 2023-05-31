@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Node.js logger",
   "license": "MIT",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
