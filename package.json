@@ -1,0 +1,16 @@
+{
+  "name": "hoofprint",
+  "version": "1.0.0",
+  "description": "Simple Node.js logger",
+  "license": "MIT",
+  "main": "dist/index.ts",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tsc",
+    "build": "tsup index.ts --format cjs,esm --dts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
