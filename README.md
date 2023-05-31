@@ -1,6 +1,6 @@
-<center>
+<div align="center">
   <img src=".github/horsehoe.png" width="300" />
-</center>
+</div>
 
 # Hoofprint
 
