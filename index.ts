@@ -1,48 +1,26 @@
-class Hoofprint {
-  constructor() {}
+import Logger from "./lib/logger";
+
+import { levels } from "./utils/levels";
+
+class Hoofprint extends Logger {
+  constructor() {
+    super();
+  }
 
   info(...args: any[]): void {
-    if (!args.length) return;
-
-    const date = new Date()
-      .toISOString()
-      .replace("T", " ")
-      .replace(/\.(.*)$/, "");
-
-    console.log("[%s] (info)\x1b[32m", date, ...args, "\x1b[0m");
+    this.log({ level: levels.INFO, args });
   }
 
   warn(...args: any[]): void {
-    if (!args.length) return;
-
-    const date = new Date()
-      .toISOString()
-      .replace("T", " ")
-      .replace(/\.(.*)$/, "");
-
-    console.warn("[%s] (warn)\x1b[33m", date, ...args, "\x1b[0m");
+    this.log({ level: levels.WARN, args });
   }
 
   error(...args: any[]): void {
-    if (!args.length) return;
-
-    const date = new Date()
-      .toISOString()
-      .replace("T", " ")
-      .replace(/\.(.*)$/, "");
-
-    console.error("[%s] (error)\x1b[31m", date, ...args, "\x1b[0m");
+    this.log({ level: levels.ERROR, args });
   }
 
   debug(...args: any[]): void {
-    if (!args.length) return;
-
-    const date = new Date()
-      .toISOString()
-      .replace("T", " ")
-      .replace(/\.(.*)$/, "");
-
-    console.debug("[%s] (debug)\x1b[36m", date, ...args, "\x1b[0m");
+    this.log({ level: levels.DEBUG, args });
   }
 }
 
