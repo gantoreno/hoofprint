@@ -4,7 +4,7 @@
 
 # Hoofprint
 
-![https://img.shields.io/github/issues/gantoreno/hoofprint](https://img.shields.io/github/issues/gantoreno/hoofprint) ![https://img.shields.io/github/forks/gantoreno/hoofprint](https://img.shields.io/github/forks/gantoreno/hoofprint) ![https://img.shields.io/github/stars/gantoreno/hoofprint](https://img.shields.io/github/stars/gantoreno/hoofprint) ![https://img.shields.io/github/license/gantoreno/hoofprint](https://img.shields.io/github/license/gantoreno/hoofprint)
+![https://img.shields.io/npm/v/hoofprint](https://img.shields.io/npm/v/hoofprint) ![https://img.shields.io/github/issues/gantoreno/hoofprint](https://img.shields.io/github/issues/gantoreno/hoofprint) ![https://img.shields.io/github/forks/gantoreno/hoofprint](https://img.shields.io/github/forks/gantoreno/hoofprint) ![https://img.shields.io/github/stars/gantoreno/hoofprint](https://img.shields.io/github/stars/gantoreno/hoofprint) ![https://img.shields.io/github/license/gantoreno/hoofprint](https://img.shields.io/github/license/gantoreno/hoofprint)
 
 A simple [Node.js](https://nodejs.org/en) logger.
 
