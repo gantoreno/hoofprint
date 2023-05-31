@@ -9,7 +9,7 @@ class Hoofprint {
       .replace("T", " ")
       .replace(/\.(.*)$/, "");
 
-    console.log("[%s] (info)", date, "\x1b[32m", ...args, "\x1b[0m");
+    console.log("[%s] (info)\x1b[32m", date, ...args, "\x1b[0m");
   }
 
   warn(...args: any[]): void {
@@ -20,7 +20,7 @@ class Hoofprint {
       .replace("T", " ")
       .replace(/\.(.*)$/, "");
 
-    console.warn("[%s] (warn)", date, "\x1b[33m", ...args, "\x1b[0m");
+    console.warn("[%s] (warn)\x1b[33m", date, ...args, "\x1b[0m");
   }
 
   error(...args: any[]): void {
@@ -31,7 +31,7 @@ class Hoofprint {
       .replace("T", " ")
       .replace(/\.(.*)$/, "");
 
-    console.error("[%s] (error)", date, "\x1b[31m", ...args, "\x1b[0m");
+    console.error("[%s] (error)\x1b[31m", date, ...args, "\x1b[0m");
   }
 
   debug(...args: any[]): void {
@@ -42,7 +42,7 @@ class Hoofprint {
       .replace("T", " ")
       .replace(/\.(.*)$/, "");
 
-    console.debug("[%s] (debug)", date, "\x1b[36m", ...args, "\x1b[0m");
+    console.debug("[%s] (debug)\x1b[36m", date, ...args, "\x1b[0m");
   }
 }
 
